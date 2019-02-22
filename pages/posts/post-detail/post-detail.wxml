@@ -1,0 +1,20 @@
+<!--pages/posts/post-detail/post-detail.wxml-->
+<view class="container">
+  <image class="contentImg" src="{{postImage}}"></image>
+  <image class="audio" src="/images/icon/music.png"></image>
+  <view class="avatar-author-info">
+    <image class="avatar" src="{{author}}"></image>
+    <text class="author">{{authorName}}</text>
+    <text class="info">发表于</text>
+    <text class="info">{{time}}</text>
+  </view>
+  <text class="title">{{title}}</text>
+  <view>
+    <view class="icon">
+      <image class="collection" src="/images/icon/collection.png"></image>
+      <image class="share" src="/images/icon/share.png"></image>
+    </view>
+    <view class="line"></view>
+  </view>
+  <text class="content">{{detail}}</text>
+</view>

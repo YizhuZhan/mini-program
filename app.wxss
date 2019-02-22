@@ -1,0 +1,14 @@
+text {
+  font-family: MicroSoft Yahei;
+  font-size:24rpx;
+}
+
+.clear {
+  zoom:1;
+}
+
+.clear:after{
+  content:'';
+  display:block;
+  clear:both;
+}

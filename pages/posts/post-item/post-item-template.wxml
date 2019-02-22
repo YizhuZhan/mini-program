@@ -1,0 +1,18 @@
+<template name="postItem">
+  <view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="{{author}}"></image>
+      <text class="post-date">{{date}}</text>
+    </view>
+    <text class="post-title">{{title}}</text>
+    <image class="post-image" src="{{postImage}}"></image>
+    <text class="post-content">{{content}}</text>
+    <view class="post-like" style="height:50rpx;">
+      <!-- <a class="post-like-image1" href="javascript:;" style="background:url('../../images/icon/in-icon1.PNG') no-repeat 0 0;"></a> -->
+      <image class="post-like-image2" src="{{postLikeImage}}"></image>
+      <text class="post-like-font">{{postLikeCount}}</text>
+      <image class="post-like-image2" src="{{postCommentImage}}"></image>
+      <text class="post-like-font">{{postCommentCount}}</text>
+    </view>
+  </view>
+</template>
